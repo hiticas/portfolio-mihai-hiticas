@@ -4,10 +4,10 @@ import Typography from "../../ui-components/Typography/Typography"
 
 import projectImage1 from "../../assets/images/project1.jpg"
 import projectImage2 from "../../assets/images/project2.jpg"
-import projectImage3 from "../../assets/images/thumbnail-project-3-small.webp"
-import projectImage4 from "../../assets/images/thumbnail-project-4-small.webp"
-import projectImage5 from "../../assets/images/thumbnail-project-5-small.webp"
-import projectImage6 from "../../assets/images/thumbnail-project-6-small.webp"
+import projectImage3 from "../../assets/images/project3.jpg"
+import projectImage4 from "../../assets/images/project4.jpg"
+import projectImage5 from "../../assets/images/project5.jpg"
+import projectImage6 from "../../assets/images/project6.jpg"
 
 import './Projects.scss'
 
@@ -27,7 +27,7 @@ function Projects() {
           <Project
             image={projectImage1}
             title="MEET LANDING PAGE"
-            languages={["REACT", "Vite", "SCSS"]}
+            languages={["REACT", "VITE", "SCSS"]}
             links={[
               { label: "View Project", url: "https://meet-landing-page-vite.netlify.app" },
               { label: "View Code", url: "https://github.com/hiticas/Meet-landing-page-Vite" }
@@ -36,7 +36,7 @@ function Projects() {
           <Project
             image={projectImage2}
             title="RECIPE PAGE"
-            languages={["REACT", "Vite", "SCSS"]}
+            languages={["REACT", "VITE", "SCSS"]}
             links={[
               { label: "View Project", url: "https://recipe-page-vite.netlify.app" },
               { label: "View Code", url: "https://github.com/hiticas/Recipe-page-Vite" }
@@ -46,40 +46,40 @@ function Projects() {
         <div className="projects-row">
           <Project
             image={projectImage3}
-            title="TODO WEB APP"
-            languages={["HTML", "CSS", "JAVASCRIPT"]}
+            title="FOUR CARD FEATURE"
+            languages={["REACT", "VITE", "SCSS"]}
             links={[
-              { label: "View Project", url: "https://github.com/example/project3" },
-              { label: "View Code", url: "https://github.com/example/project3-code" }
+              { label: "View Project", url: "https://four-card-feature-section-vite.netlify.app" },
+              { label: "View Code", url: "https://github.com/hiticas/Four-card-feature-section-Vite" }
             ]}
           />
           <Project
             image={projectImage4}
-            title="ENTERTAINMENT WEB APP"
-            languages={["HTML", "CSS", "JAVASCRIPT"]}
+            title="TESTIMONIALS GRID"
+            languages={["REACT", "VITE", "SCSS"]}
             links={[
-              { label: "View Project", url: "https://github.com/example/project4" },
-              { label: "View Code", url: "https://github.com/example/project4-code" }
+              { label: "View Project", url: "https://testimonials-grid-section-vite.netlify.app" },
+              { label: "View Code", url: "https://github.com/hiticas/Testimonials-grid-section-Vite" }
             ]}
           />
         </div>
         <div className="projects-row">
           <Project
             image={projectImage5}
-            title="MEMORY GAME"
-            languages={["HTML", "CSS", "JAVASCRIPT"]}
+            title="ARTICLE PREVIEW"
+            languages={["REACT", "VITE", "SCSS"]}
             links={[
-              { label: "View Project", url: "https://github.com/example/project5" },
-              { label: "View Code", url: "https://github.com/example/project5-code" }
+              { label: "View Project", url: "https://article-preview-component-vite.netlify.app" },
+              { label: "View Code", url: "https://github.com/hiticas/Article-preview-component-Vite" }
             ]}
           />
           <Project
             image={projectImage6}
-            title="ART GALLERY SHOWCASE"
-            languages={["HTML", "CSS", "JAVASCRIPT"]}
+            title="PRODUCT PREVIEW"
+            languages={["REACT", "VITE", "SCSS"]}
             links={[
-              { label: "View Project", url: "https://github.com/example/project6" },
-              { label: "View Code", url: "https://github.com/example/project6-code" }
+              { label: "View Project", url: "https://product-preview-card-component-vite.netlify.app" },
+              { label: "View Code", url: "https://github.com/hiticas/Product-preview-card-component-Vite" }
             ]}
           />
         </div>
