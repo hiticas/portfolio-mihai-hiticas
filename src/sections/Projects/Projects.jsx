@@ -2,8 +2,8 @@ import Project from "../../components/Project/Project"
 import Button from "../../ui-components/Button/Button"
 import Typography from "../../ui-components/Typography/Typography"
 
-import projectImage1 from "../../assets/images/thumbnail-project-1-small.webp"
-import projectImage2 from "../../assets/images/thumbnail-project-2-small.webp"
+import projectImage1 from "../../assets/images/project1.jpg"
+import projectImage2 from "../../assets/images/project2.jpg"
 import projectImage3 from "../../assets/images/thumbnail-project-3-small.webp"
 import projectImage4 from "../../assets/images/thumbnail-project-4-small.webp"
 import projectImage5 from "../../assets/images/thumbnail-project-5-small.webp"
@@ -26,20 +26,20 @@ function Projects() {
         <div className="projects-row">
           <Project
             image={projectImage1}
-            title="DESIGN PORTFOLIO"
-            languages={["HTML", "CSS"]}
+            title="MEET LANDING PAGE"
+            languages={["REACT", "Vite", "SCSS"]}
             links={[
-              { label: "View Project", url: "https://github.com/example/project1" },
-              { label: "View Code", url: "https://github.com/example/project1-code" }
+              { label: "View Project", url: "https://meet-landing-page-vite.netlify.app" },
+              { label: "View Code", url: "https://github.com/hiticas/Meet-landing-page-Vite" }
             ]}
           />
           <Project
             image={projectImage2}
-            title="E-LEARNING LANDING PAGE"
-            languages={["HTML", "CSS"]}
+            title="RECIPE PAGE"
+            languages={["REACT", "Vite", "SCSS"]}
             links={[
-              { label: "View Project", url: "https://github.com/example/project2" },
-              { label: "View Code", url: "https://github.com/example/project2-code" }
+              { label: "View Project", url: "https://recipe-page-vite.netlify.app" },
+              { label: "View Code", url: "https://github.com/hiticas/Recipe-page-Vite" }
             ]}
           />
         </div>
