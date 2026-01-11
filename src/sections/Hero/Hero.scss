@@ -1,38 +1,16 @@
 .hero {
   position: relative;
   overflow: hidden;
-  margin: 0 0 80px;
+  margin: 0 0 40px;
 
   .developer-image-wrapper {
     height: 340px;
 
-    .profile-image-mobile {
+    .profile-image {
+      width: 300px;
       position: absolute;
-      top: -92px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 180px;
-      height: 380px;
-    }
-
-    .profile-image-tablet {
-      display: none;
-    }
-
-    .profile-image-desktop {
-      display: none;
-    }
-
-    .rings {
-      position: absolute;
-      top: 50px;
-      left: -345px;
-    }
-
-    .circle {
-      position: absolute;
-      bottom: 300px;
-      right: -65px;
+      right: 50%;
+      transform: translateX(50%);
     }
   }
 
@@ -73,14 +51,9 @@
     .developer-image-wrapper {
       height: 100%;
 
-      .profile-image-mobile {
-        display: none;
-      }
-
-      .profile-image-tablet {
-        display: block;
-        width: 320px;
-        margin-top: -64px;
+      .profile-image {
+        right: 32px;
+        transform: none;
       }
 
       .rings {
@@ -97,6 +70,7 @@
       justify-content: center; 
       align-items: flex-start;
       margin-left: 32px;
+      z-index: 2;
 
       .hero-title {
         text-align: left;
@@ -122,29 +96,12 @@
 @media (min-width: 1024px) {
   .hero {
     max-width: 1100px;
-    margin: 0 auto 185px;
+    margin: 0 auto 72px;
     overflow: visible;
 
     .developer-image-wrapper {
-      .profile-image-tablet {
-        display: none;
-      }
-
-      .profile-image-desktop {
-        display: block;
-        width: 350px;
-        position: absolute;
-        right: 0;
-      }
-
-      .rings {
-        top: 20px;
-        left: -220px;
-      }
-
-      .circle {
-        right: 280px;
-        bottom: -40px;
+      .profile-image {
+        top: 50px;
       }
     }
 
@@ -171,15 +128,10 @@
 
 @media (min-width: 1200px) {
   .hero {
-    margin: 0 auto 300px;
     .developer-image-wrapper {
-      .profile-image-desktop {
-        width: 420px;
-      }
-
-      .circle {
-        right: 350px;
-        bottom: -115px;
+      .profile-image {
+        right: 0;
+        width: 450px;
       }
     }
     

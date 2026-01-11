@@ -6,12 +6,12 @@ function Skills() {
   return (
     <div className="skills">
       <div className="row">
-        <Skill skill="HTML" years="4 Years Experience" />
-        <Skill skill="CSS" years="4 Years Experience" />
+        <Skill skill="HTML" years="5 Years Experience" />
+        <Skill skill="CSS" years="5 Years Experience" />
       </div>
       <div className="row">
-        <Skill skill="JavaScript" years="4 Years Experience" />
-        <Skill skill="Accessibility" years="4 Years Experience" />
+        <Skill skill="JavaScript" years="5 Years Experience" />
+        <Skill skill="Accessibility" years="5 Years Experience" />
       </div>
       <div className="row">
         <Skill skill="React" years="3 Years Experience" />

@@ -16,7 +16,7 @@ function Projects() {
     <div className="projects-section">
       <div className="header-projects-section">
         <Typography as="h1" type="heading-xl">Projects</Typography>
-        <a href="mailto:adamkeyes@example.com">
+        <a href="mailto:hiticasmihai7@gmail.com">
           <Button aria-label="Contact">
             <Typography as="span" type="body-btn">Contact me</Typography>
           </Button>
